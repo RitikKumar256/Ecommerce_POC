@@ -1,4 +1,4 @@
-package com.e_com.config;
+package com.Riecommerce.ecommercePOC.config;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.context.annotation.Bean;

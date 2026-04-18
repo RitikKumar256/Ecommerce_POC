@@ -1,4 +1,4 @@
-package com.e_com.config;
+package com.Riecommerce.ecommercePOC.config;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
