@@ -20,7 +20,7 @@ public class JwtProvider {
                 .setIssuedAt(new Date())
                 .setExpiration(new Date(System.currentTimeMillis() + 846000000)) // ~10 days
                 .claim("email", auth.getName())
-                .signWith(key)   // ✅ fixed
+                .signWith(key)
                 .compact();
 
         return jwt;
